@@ -1,0 +1,136 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+
+.wrapper {
+    width: 100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #1410e8;
+}
+
+.menu {
+    float: left;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #880c5b;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: red (255, 247, 245);
+    font-weight:underline ;
+    text-align: left;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: bold;
+}
+
+section {
+    margin: auto;
+    display: grid;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'comic sans';
+    color: #2a9d8f;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #2a9d8f;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-pink {
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #2a9d2a;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#contact {
+    background-color: #e23e1d;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-areas: grid;
+    margin: auto ;
+}
+
+.footer-section {
+    width: 30%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 600px;
+    font-size: 40px;
+    margin-bottom: 35px;
+    color: #2a9d8f;
+    width: 100%;
+    line-height: 60px;
+}
+
+#Copyright {
+    text-align: center;
+    width: 100%;
+    padding: 60px 0px 40px 0px;
+    margin-top: 60px;
+}
